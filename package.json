@@ -1,0 +1,38 @@
+{
+  "name": "ez-trip-backend",
+  "version": "1.0.0",
+  "description": "E-Z Trip Backend",
+  "main": "app.js",
+  "author": "EZ-trip",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/E-Z-TRIP/backend-ez-trip.git"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "watch": "nodemon -e * app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chalk": "^5.0.1",
+    "cloudinary": "^1.32.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.10",
+    "uid2": "^1.0.0",
+    "uniqid": "^5.4.0",
+    "uniquid": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

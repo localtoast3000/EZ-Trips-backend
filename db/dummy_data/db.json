@@ -1,0 +1,536 @@
+[
+  {
+    "name": "Traversée de l'Altiplano Bolivien",
+    "country": "Bolivie",
+    "partnerID": "74063fbb9a5e71870a945c05",
+    "addressDeparture": "La Paz",
+    "minDurationDay": 21,
+    "maxDurationDay": 21,
+    "travelPeriod": [
+      { "start": 4, "end": 6 },
+      { "start": 9, "end": 10 }
+    ],
+    "description": "Vivez une aventure en Bolivie avec ce voyage très complet qui vous emmènera à la découverte des principaux sites du pays, dont la région du Sud Lipez avec le Salar d’Uyuni, et à la rencontre de communautés boliviennes.",
+    "included": [
+      "Vol réguliers Paris/La Paz, les taxes aéroportuaires",
+      "Les réservations et les achats des prestations",
+      "Les transferts (bus, train, avion, minibus...)",
+      "L'encadrement par notre guide bolivien francophone",
+      "La demi pension",
+      "Les hébergements",
+      "Les entrées dans les différents sites visités",
+      "Le fonds de développement (65€/voyageur)"
+    ],
+    "nonIncluded": [
+      "Les repas non mentionnés au programme",
+      "Les boissons et les pourboires",
+      "Le supplément chambre individuelle",
+      "La solidarité climatique facultative",
+      "Les assurances annulation-interruption de séjour et assistance rapatriement optionnelles",
+      "Les frais d'inscription (20€/personne)"
+    ],
+    "photos": [
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685797/QuetenaChico_rf9h4j.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685797/flamants_laguna_colorada_dkspjf.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685797/LaPaz_x7dlsw.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685797/incahuasi_wx6a2w.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685797/tiahuanaco_jgm983.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685796/salarUyuni_i07fqf.jpg"
+    ],
+    "background": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685824/Salar-de-Uyuni-Night-view-4_idqdou.jpg",
+    "tags": [
+      "Culture",
+      "Désert",
+      "Vol inclus",
+      "Trek",
+      "Altitude",
+      "Chez l'habitant",
+      "Hôtel",
+      "Amérique Latine",
+      "Découverte",
+      "Hispanophone"
+    ],
+    "program": [
+      {
+        "nbday": 21,
+        "detailedProgram": [
+          { "day": 1, "activities": "Départ de France et vol pour La Paz." },
+          {
+            "day": 2,
+            "activities": "Arrivée à La Paz, accueil par le guide accompagnateur + transfert hôtel. Après-midi libre. Dîner libre et nuit à La Paz."
+          },
+          {
+            "day": 3,
+            "activities": "Visite de Tiahuanaco (site archéologique majeur). Arrivée à La Paz en milieu d'après midi. Dîner libre et nuit à La Paz."
+          },
+          {
+            "day": 4,
+            "activities": "Vol pour Sucre. Transfert hôtel, moment libre puis déjeuner. Visite de Sucre, cité classée au Patrimoine mondial de l'UNESCO. Visite du couvent de la Recoleta. Soirée dîner spectacle de musique et danse traditionnelle. Nuit à Sucre."
+          },
+          {
+            "day": 5,
+            "activities": "Départ en véhicule pour rejoindre le début de notre randonnée dans la cordillère de Los Frailes. Antique chemin précolombien. Nuit dans une communauté du village de Maragua."
+          },
+          {
+            "day": 6,
+            "activities": "A pied nous rejoignons la communauté de Ninu Mayu et le site de Huellas de dinosorio. Retour en véhicule dans la famille d'accueil à Maragua. Transfert à Sucre dans l'après midi. Diner libre et nuit à Sucre"
+          },
+          {
+            "day": 7,
+            "activities": "Voyage en bus pour Potosi. Transfert et installation à l'hôtel + déjeuner. Visite du musée la Casa de la Moneda. Temps libre. Dîner libre et nuit à Potosi"
+          },
+          {
+            "day": 8,
+            "activities": "Visite des mines de Cerro Rico avec un guide ex-mineur reconverti. Déjeuner libre et voyage dans l'après midi pour Tupiza. Rencontre avec Milton notre chauffeur pour la partie Lipez. Nuit chez l'habitant."
+          },
+          {
+            "day": 9,
+            "activities": "Matinée visite des environs de San Miguel et moments de partage avec la communauté. Transfert vers Tupiza après le déjeuner. Après midi libre pour profiter de la piscine de l'hôtel avant le désert de Lipez. Briefing sur l'expédition du lendemain. Dîner libre et nuit à Tupiza."
+          },
+          {
+            "day": 10,
+            "activities": "A la frontière de l'Argentine et du Chili, le désert de Lipez. Altitude 4240m. Observation des nandus, des vigognes et des tatous. Après midi à San Pablo de Lipez. Auberge chez l'habitant"
+          },
+          {
+            "day": 11,
+            "activities": "Suite de la découverte de cette région. Altitude 5730m. Traverse d'un village fantôme (ancien village minier abandonné). Nuit à Quetena Chico dans une auberge modeste du village."
+          },
+          {
+            "day": 12,
+            "activities": "Départ à l'aube pour continuer la découverte de la région. Passage par la lagune Verdé sous le volcan Licancabur (5916m). Nuit au refuge de la lagune Colorada."
+          },
+          {
+            "day": 13,
+            "activities": "Toujours route plein nord sur la cordillère volcanique. L'arbre de pierre, les lagunes de Lagunillas... Arrivée fin d'après midi au village d'Atollcha, installation dans un lodge de sel."
+          },
+          {
+            "day": 14,
+            "activities": "Départ très tot pour rejoindre le salar d'Uyuni avant le lever du soleil. Randonnée de 2h pour rejoindre l'île Incahuasi. Déjeuner sur l'île et panorama à 360° au sommet de l'île. Dîner libre et nuit à Uyuni."
+          },
+          {
+            "day": 15,
+            "activities": "Arrivée à La Paz. Musée du coca, marché des sorcières, musée d'ethnologie, musée des instruments. Diner libre et nuit à La Paz."
+          },
+          {
+            "day": 16,
+            "activities": "Départ pour l'altiplano. Découverte de la Cordillère Royale. Notre guide nous accompagne dans sa ville d'origine Tuni. Arrivée pour la préparation du déjeuner avec produits locaux. Après midi visite du village. Nuit à Tuni chez l'habitant."
+          },
+          {
+            "day": 17,
+            "activities": "Transfert jusqu'à Copacabana. Passage par le lac Titicaca (4075m). Bateau jusqu'à l'Ile du soleil. Visite du temple du soleil, soirée libre et nuit chez Ismael, dans sa petite auberge."
+          },
+          {
+            "day": 18,
+            "activities": "Randonnée pour le nord de l'ile. Fin de matinée au village de Challa'pampa. Retour en bateau à Copacabana. Diner libre et nuit à l'hôtel."
+          },
+          { "day": 19, "activities": "Retour à La Paz. Fin de journée libre. Dîner et nuit à La Paz." },
+          { "day": 20, "activities": "Transfert vers l'aéroport et retour vers la France." },
+          { "day": 21, "activities": "Arrivée en France." }
+        ],
+        "price": 4500,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666685046/grande-traversee-de-laltiplano-bolivien-2022_zfix4l.pdf"
+      }
+    ]
+  },
+  {
+    "name": "Pérou rêvé",
+    "country": "Pérou",
+    "partnerID": "6357a8213aa3832bd4319f06",
+    "addressDeparture": "Lima",
+    "minDurationDay": 5,
+    "maxDurationDay": 16,
+    "travelPeriod": [{ "start": 1, "end": 3 }],
+    "description": "Le Pérou est un pays de contrastes, de couleurs, d’histoire, ajouter à la visite du Pérou touristique, des familles péruviennes, donne à ce voyage une dimension de partage et d’échange. Nous partagerons la vie des certaines familles péruviennes tout en visitant les sites les plus célèbres du territoire péruvien, nous sortirons des sentiers classiques pour visiter des endroits moins fréquentés. Par ce voyage nous voulons aussi donner une vision de la réalité d’un peuple très généreux, avec des difficultés, mais aussi ouvert et curieux d’autrui, et les possibilités de partager des moments intenses en échanges.",
+    "included": [
+      "La logistique, les réservations et les achats des prestations",
+      "Les transferts (bus, train, avion, minibus...)",
+      "la taxe aéroport à Cuzco",
+      "la demi pension",
+      "les hébergements",
+      "les entrées dans les différents sites visités"
+    ],
+    "nonIncluded": [
+      "Le billet international depuis la France",
+      "les boissons",
+      "les guides locaux",
+      "les souvenirs",
+      "les visites ou excursions non décrites dans le programme"
+    ],
+    "photos": [
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/Amantani-Gladys_qv4i3l.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/cultures-cuzco_eatru7.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/cuzco-habits_hay0fg.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/puno-famille_eoegnw.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/huacachina-buddy_qj3xb7.png",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/machu-picchu_fc90cz.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626183/Paracas_l7v27g.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666626184/huacachina_gwstzy.png"
+    ],
+    "background": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688729/background_xkakhk.jpg",
+    "tags": ["Culture", "Chez l'habitant", "Aventure", "Amérique Latine", "Découverte", "Hispanophone"],
+    "program": [
+      {
+        "nbday": 5,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          },
+          {
+            "day": 5,
+            "activities": "Transfert vers Chivay. Arrivée à 4910m d'altitude. Observation de plusieurs volcans en activité. Visite de la ville de Chivay. Eaux thermales de Chivay. Diner et nuit sur place à l'hôtel."
+          }
+        ],
+        "price": 700,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      },
+      {
+        "nbday": 16,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          },
+          {
+            "day": 5,
+            "activities": "Transfert vers Chivay. Arrivée à 4910m d'altitude. Observation de plusieurs volcans en activité. Visite de la ville de Chivay. Eaux thermales de Chivay. Diner et nuit sur place à l'hôtel."
+          },
+          {
+            "day": 6,
+            "activities": "Cruz del Condor, petits villages. Transfert vers Puno. Installation chez notre famille d'accueil, dîner et nuit sur place."
+          },
+          {
+            "day": 7,
+            "activities": "Bateau sur le lac Titicaca qui nous fera découvrir les iles flottantes des UROS et déjeuner à Amantani. Temps de partage avec notre famille d'accueil. Diner et nuit chez l'habitant."
+          },
+          {
+            "day": 8,
+            "activities": "Bateau jusqu'à l'ile de Taquile, visite et retour en bateau à Puno. Fin de journée libre. Diner et nuit dans la famille d'accueil."
+          },
+          {
+            "day": 9,
+            "activities": "Départ vers Sicuani. Visite de Raqchi avec Gerarda chez qui vous logerez. Soirée préparation de la pachamanca repas traditionnel."
+          },
+          {
+            "day": 10,
+            "activities": "Départ pour Cusco, visite de Andahuaylillas et de la chapelle Saint Pierre. Arrivée à Cusco en début d'après midi. Diner et nuit à Cusco."
+          },
+          {
+            "day": 11,
+            "activities": "Visite de Pisac, descente à pied au village pour le déjeuner. Après midi dédié à la visite des quatre sites de Sacsayhuaman. Descente vers Cusco à pied. Dîner et nuit prévus chez notre famille d'accueil."
+          },
+          { "day": 12, "activities": "Journée libre à cusco." },
+          {
+            "day": 13,
+            "activities": "Découverte du village Chinchero, viste des ruines de Moray. Route en bus vers le village d'Ollantaytambo. Après midi départ vers Aguas Calientes, et nuit à l'hôtel."
+          },
+          {
+            "day": 14,
+            "activities": "Visite du Machu Picchu, train en fin de journée pour retour à Cusco. Nuit à Cusco."
+          },
+          { "day": 15, "activities": "Vol Cusco-Lima. Visite de Lima, diner et nuit chez l'habitant." },
+          {
+            "day": 16,
+            "activities": "Visite de Lima et d'un quartier moins privilégié, Collique, ou notre association Pérou Amitié Solidarité a construit un réfectoir pour 120 enfants. Transfert 3h avant le vol pour l'aéroport de Lima."
+          }
+        ],
+        "price": 2100,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      }
+    ]
+  },
+  {
+    "name": "Bali 1",
+    "country": "Indonésie",
+    "partnerID": "6357a7923aa3832bd4319f00",
+    "addressDeparture": "Bali",
+    "minDurationDay": 4,
+    "maxDurationDay": 10,
+    "travelPeriod": [{ "start": 4, "end": 10 }],
+    "description": "Bali Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum, eaque rerum!",
+    "included": [
+      "La logistique, les réservations et les achats des prestations",
+      "Les transferts (bus, train, avion, minibus...)",
+      "la taxe aéroport à Cuzco",
+      "la demi pension",
+      "les hébergements",
+      "les entrées dans les différents sites visités"
+    ],
+    "nonIncluded": [
+      "Le billet international depuis la France",
+      "les boissons",
+      "les guides locaux",
+      "les souvenirs",
+      "les visites ou excursions non décrites dans le programme"
+    ],
+    "photos": [
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali3_t80vuq.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/Bali1_bat19s.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali2_x92gur.jpg"
+    ],
+    "background": ["https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/balibackground_zhvjoa.jpg"],
+    "tags": ["Sable fin", "Détente", "Plage", "Asie du Sud Est", "Île"],
+    "program": [
+      {
+        "nbday": 4,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 600,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      },
+      {
+        "nbday": 10,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          },
+          { "day": 5, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 6,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          { "day": 7, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 8,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 9,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 10,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 4000,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      }
+    ]
+  },
+  {
+    "name": "Bali 2",
+    "country": "Indonésie",
+    "partnerID": "6357a7923aa3832bd4319f00",
+    "addressDeparture": "Bali",
+    "minDurationDay": 4,
+    "maxDurationDay": 10,
+    "travelPeriod": [{ "start": 4, "end": 10 }],
+    "description": "Bali Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum, eaque rerum!",
+    "included": [
+      "La logistique, les réservations et les achats des prestations",
+      "Les transferts (bus, train, avion, minibus...)",
+      "la taxe aéroport à Cuzco",
+      "la demi pension",
+      "les hébergements",
+      "les entrées dans les différents sites visités"
+    ],
+    "nonIncluded": [
+      "Le billet international depuis la France",
+      "les boissons",
+      "les guides locaux",
+      "les souvenirs",
+      "les visites ou excursions non décrites dans le programme"
+    ],
+    "photos": [
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali3_t80vuq.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/Bali1_bat19s.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali2_x92gur.jpg"
+    ],
+    "background": ["https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/balibackground_zhvjoa.jpg"],
+    "tags": ["Plongée sous-marine", "Sportif", "Plage", "Asie du Sud Est", "Île"],
+    "program": [
+      {
+        "nbday": 4,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 600,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      },
+      {
+        "nbday": 10,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          },
+          { "day": 5, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 6,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          { "day": 7, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 8,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 9,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 10,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 4000,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      }
+    ]
+  },
+  {
+    "name": "Bali 3",
+    "country": "Indonésie",
+    "partnerID": "63563fbb9a5e71870a945c05",
+    "addressDeparture": "Bali",
+    "minDurationDay": 4,
+    "maxDurationDay": 10,
+    "travelPeriod": [{ "start": 4, "end": 10 }],
+    "description": "Bali Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,\nmolestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum, eaque rerum!",
+    "included": [
+      "La logistique, les réservations et les achats des prestations",
+      "Les transferts (bus, train, avion, minibus...)",
+      "la taxe aéroport à Cuzco",
+      "la demi pension",
+      "les hébergements",
+      "les entrées dans les différents sites visités"
+    ],
+    "nonIncluded": [
+      "Le billet international depuis la France",
+      "les boissons",
+      "les guides locaux",
+      "les souvenirs",
+      "les visites ou excursions non décrites dans le programme"
+    ],
+    "photos": [
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali3_t80vuq.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/Bali1_bat19s.jpg",
+      "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/bali2_x92gur.jpg"
+    ],
+    "background": ["https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666688082/balibackground_zhvjoa.jpg"],
+    "tags": ["Farniente", "Détente", "Plage", "Asie du Sud Est", "Île"],
+    "program": [
+      {
+        "nbday": 4,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 600,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      },
+      {
+        "nbday": 10,
+        "detailedProgram": [
+          { "day": 1, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 2,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 3,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 4,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          },
+          { "day": 5, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 6,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          { "day": 7, "activities": "Accueil à Lima. Transfert vers notre famille d'accueil. Dîner et nuit à Lima." },
+          {
+            "day": 8,
+            "activities": "Bus vers Paracas (village pêcheur). Accueillis par Lourdes et Juan (ancien pêcheur) pour visiter la région, la réserve de Paracas et ses plages. Diner et nuit chez eux. "
+          },
+          {
+            "day": 9,
+            "activities": "Visite en bateau des îles Ballestas, réserve de la faune maritime. Transfert à Huacachina, oasis aux milieux des dunes au coeur d'un des déserts péruviens. Bus de nuit pour Arequipa."
+          },
+          {
+            "day": 10,
+            "activities": "Accueil à la gare par Maryorie et transfert chez elle et sa famille. Visites de la ville avec Maryorie (couvent de Santa Catalina, centre ville). Déjeuner au foyer des enfants dont les mamans travaillent dans les rues. Visite du marché couvert San Camilo. Diner et nuit chez notre famille d'accueil"
+          }
+        ],
+        "price": 4000,
+        "programPDF": "https://res.cloudinary.com/dxq6tt9ur/image/upload/v1666687779/Viajes-y-alternativas_eudmwe.pdf"
+      }
+    ]
+  }
+]
