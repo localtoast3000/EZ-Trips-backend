@@ -1,6 +1,8 @@
 import express from 'express';
-import { validateReqBody } from '../lib/helpers.js';
+import { validateReqBody, isNull } from '../lib/helpers.js';
 import Trip from '../db/models/Trip.js';
+import { caseInsensitiveSearchString } from '../lib/helpers.js';
+import { getMonth } from 'date-fns';
 const router = express.Router();
 
 /////GET ALL TRIPS
@@ -51,36 +53,60 @@ router.get('/byPartner/:partner', (req, res) => {
 
 /////GET TRIPS FILTERED BY QUERYS
 
-router.get('/filter', (req, res) => {
-  const filters = req.query;
-  console.log(filters);
-  const response = [];
-  let startMonth = Number(filters.startMonth != '' ? filters.startMonth : 1);
-  let endMonth = Number(filters.endMonth != '' ? filters.endMonth : 12);
-  let minBudget = Number(filters.minBudget ? filters.minBudget : 0);
-  let maxBudget = Number(filters.maxBudget ? filters.maxBudget : 30000);
-  let searchInput = filters.searchInput != '' ? filters.searchInput : '';
-  let tags = filters.tags ? filters.tags : [];
-  Trip.find().then((data) => {
-    data.map((trip, i) => {
-      let startMonthTrip = trip.travelPeriod[0].start; //début de la travel period du trip
-      let endMonthTrip = trip.travelPeriod[0].end; //fin de la travel period du trip
-      let minPriceTrip = trip.program[0].price; //prix du plus court programme = "à partir de...€"
-      if (
-        !response.some((e) => e.id === trip.id) &&
-        minPriceTrip >= minBudget &&
-        minPriceTrip <= maxBudget
-      ) {
-        response.push(trip);
-      }
-    });
+router.get('/filter', async (req, res) => {
+  if (
+    validateReqBody({
+      body: req.query,
+      expectedPropertys: [
+        'startMonth',
+        'endMonth',
+        'maxBudget',
+        'minBudget',
+        'durationInDays',
+        'tags',
+      ],
+      allowNull: true,
+    })
+  ) {
+    let { startMonth, endMonth, minBudget, maxBudget, durationInDays, tags } = req.query;
+    if (isNull(startMonth)) startMonth = getMonth(new Date()) + 1;
+    if (isNull(endMonth)) endMonth = getMonth(new Date()) + 2;
+    if (isNull(minBudget)) minBudget = 300;
+    if (isNull(maxBudget)) maxBudget = 8000;
 
-    if (response.length > 0) {
-      res.json({ result: true, trips: response });
-    } else {
-      res.json({ result: false, error: 'No trips corresponding to the filters' });
+    const monthRangeSearch = {
+      travelPeriod: {
+        $elemMatch: { start: { $eq: startMonth }, end: { $eq: endMonth } },
+      },
+    };
+    const priceRangeSearch = {
+      program: { $elemMatch: { price: { $gte: minBudget, $lte: maxBudget } } },
+    };
+
+    const trips = await Trip.find({ $and: [monthRangeSearch, priceRangeSearch] });
+    console.log(trips);
+    res.json({ result: true, trips });
+  } else res.json({ result: false, error: 'Invalid query' });
+});
+
+router.get('/searchbycountry', async (req, res) => {
+  if (
+    validateReqBody({
+      body: req.query,
+      expectedPropertys: ['country'],
+    })
+  ) {
+    const { country } = req.query;
+    if (isNull(country) || country.length < 3)
+      return res.json({ result: false, error: 'Invalid country name' });
+    else {
+      const trips = await Trip.find({
+        country: { $regex: caseInsensitiveSearchString(country) },
+      });
+      if (!trips.length > 0) return res.json({ result: false, error: 'No trips found' });
+      else res.json({ result: true, trips });
     }
-  });
+  } else res.json({ result: false, error: 'Invalid query' });
 });
 
 export default router;
