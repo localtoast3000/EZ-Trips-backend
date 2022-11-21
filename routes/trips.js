@@ -3,6 +3,7 @@ import { validateReqBody, isNull } from '../lib/helpers.js';
 import Trip from '../db/models/Trip.js';
 import { caseInsensitiveSearchString } from '../lib/helpers.js';
 import { getMonth } from 'date-fns';
+import { inspect } from '../lib/inspector.js';
 const router = express.Router();
 
 /////GET ALL TRIPS
@@ -69,8 +70,11 @@ router.get('/filter', async (req, res) => {
     })
   ) {
     let { startMonth, endMonth, minBudget, maxBudget, durationInDays, tags } = req.query;
-    if (isNull(startMonth)) startMonth = getMonth(new Date()) + 1;
-    if (isNull(endMonth)) endMonth = getMonth(new Date()) + 2;
+    startMonth = Number(startMonth);
+    endMonth = Number(endMonth);
+    durationInDays = Number(durationInDays);
+    if (isNull(startMonth)) startMonth = Number(getMonth(new Date()) + 1);
+    if (isNull(endMonth)) endMonth = Number(getMonth(new Date()) + 2);
     if (isNull(minBudget)) minBudget = 300;
     if (isNull(maxBudget)) maxBudget = 8000;
 
@@ -83,9 +87,21 @@ router.get('/filter', async (req, res) => {
       program: { $elemMatch: { price: { $gte: minBudget, $lte: maxBudget } } },
     };
 
-    const trips = await Trip.find({ $and: [monthRangeSearch, priceRangeSearch] });
-    console.log(trips);
-    res.json({ result: true, trips });
+    const durationInDaysSearch = {
+      program: { $elemMatch: { nbDay: durationInDays } },
+    };
+
+    const trips = await Trip.find({ $and: [durationInDaysSearch] });
+    inspect(trips);
+    res.json({
+      result: true,
+      trips: trips.map((trip) => {
+        trip.travelPeriod = trip.travelPeriod.filter(
+          ({ start, end }) => start === startMonth && end === endMonth
+        );
+        return trip;
+      }),
+    });
   } else res.json({ result: false, error: 'Invalid query' });
 });
 

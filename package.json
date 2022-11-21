@@ -11,7 +11,7 @@
     "url": "https://github.com/E-Z-TRIP/backend-ez-trip.git"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "watch": "nodemon -e * app.js"
   },
   "dependencies": {
