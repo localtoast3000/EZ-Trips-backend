@@ -52,7 +52,25 @@ router.get('/byPartner/:partner', (req, res) => {
   }
 });
 
-/////GET TRIPS FILTERED BY QUERYS
+router.get('/searchbycountry', async (req, res) => {
+  if (
+    validateReqBody({
+      body: req.query,
+      expectedPropertys: ['country'],
+    })
+  ) {
+    const { country } = req.query;
+    if (isNull(country) || country.length < 3)
+      return res.json({ result: false, error: 'Invalid country name' });
+    else {
+      const trips = await Trip.find({
+        country: { $regex: caseInsensitiveSearchString(country) },
+      });
+      if (!trips.length > 0) return res.json({ result: false, error: 'No trips found' });
+      else res.json({ result: true, trips });
+    }
+  } else res.json({ result: false, error: 'Invalid query' });
+});
 
 router.get('/filter', async (req, res) => {
   if (
@@ -88,40 +106,21 @@ router.get('/filter', async (req, res) => {
     };
 
     const durationInDaysSearch = {
-      program: { $elemMatch: { nbDay: durationInDays } },
+      program: { $elemMatch: { tags: 1 } },
     };
 
-    const trips = await Trip.find({ $and: [durationInDaysSearch] });
+    const trips = await Trip.find({ $and: [monthRangeSearch, priceRangeSearch] });
     inspect(trips);
     res.json({
       result: true,
-      trips: trips.map((trip) => {
-        trip.travelPeriod = trip.travelPeriod.filter(
-          ({ start, end }) => start === startMonth && end === endMonth
-        );
-        return trip;
-      }),
+      trips,
+      // trips: trips.map((trip) => {
+      //   trip.travelPeriod = trip.travelPeriod.filter(
+      //     ({ start, end }) => start === startMonth && end === endMonth
+      //   );
+      //   return trip;
+      // }),
     });
-  } else res.json({ result: false, error: 'Invalid query' });
-});
-
-router.get('/searchbycountry', async (req, res) => {
-  if (
-    validateReqBody({
-      body: req.query,
-      expectedPropertys: ['country'],
-    })
-  ) {
-    const { country } = req.query;
-    if (isNull(country) || country.length < 3)
-      return res.json({ result: false, error: 'Invalid country name' });
-    else {
-      const trips = await Trip.find({
-        country: { $regex: caseInsensitiveSearchString(country) },
-      });
-      if (!trips.length > 0) return res.json({ result: false, error: 'No trips found' });
-      else res.json({ result: true, trips });
-    }
   } else res.json({ result: false, error: 'Invalid query' });
 });
 

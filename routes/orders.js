@@ -93,6 +93,19 @@ router.get('/:id', (req, res) => {
     });
 });
 
+router.get('/offer/:id', (req, res) => {
+  const { id } = req.params;
+  Order.findById({ _id: id })
+    .populate('trip')
+    .then((data) => {
+      if (data) {
+        res.json({ result: true, data: data });
+      } else {
+        res.json({ result: false, error: 'User not found' });
+      }
+    });
+});
+
 //* ------------ UPDATE LE STATUS -----------------  requested -> received -> validated
 
 router.put('/updateStatus/:orderID', async (req, res) => {
